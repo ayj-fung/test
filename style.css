@@ -8,9 +8,9 @@
 }
 
 .wrapper{
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1280px;                          /* wrapper sets max width of content (excluding the background color) */
+    margin-left: auto;                          /* centers the wrapper */
+    margin-right: auto;                         /* centers the wrapper */
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -27,8 +27,8 @@ h2{
     height: 100vh;
 }
 
-.banner img{
-    flex-basis: 40%;
+.banner img{                                    /* this is a child so use flex-basis to change width */
+    flex-basis: 40%;                            /* the img is inside the wrapper so the width is 40% of 1280px */
     max-width: 40%;
     height: 80vh;
     object-fit: cover;
@@ -43,7 +43,7 @@ h2{
     /* background-color: red;
     border: 5px solid green; */
     flex-basis: 60%;
-    display: flex;
+    display: flex;                              /* there is a display flex in one of the children because I want to align the h1 and nav in the middle of the child */
     align-items: center;
     justify-content: center;
     flex-direction: column;
