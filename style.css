@@ -1,0 +1,116 @@
+/* global */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+
+/* banner */
+
+.banner{
+    background-color: pink;
+    height: 100vh;
+}
+
+.banner img{
+    flex-basis: 40%;
+    max-width: 40%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-container{
+    display: flex;
+}
+
+.banner-container-child{
+    /* background-color: red;
+    border: 5px solid green; */
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.banner h1{
+    font-size: 64px;
+    /* background-color: seagreen; */
+    margin: 70px;
+}
+
+.banner nav{
+    /* background-color: royalblue; */
+}
+
+.banner a{
+    margin: 40px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* about me */
+
+.about-me{
+    background-color: salmon;
+}
+
+.about-me-container{
+    display: flex;
+}
+
+.about-me h2{
+    /* background-color: red; */
+    flex-basis: 40%;
+}
+
+.about-me p{
+    /* background-color: royalblue; */
+    flex-basis: 60%;
+    /* border: 5px solid green; */
+}
+
+
+/* education */
+
+.education{
+    background-color: pink;
+}
+
+.education-container{
+    display: flex;
+}
+
+.education h2{
+    /* background-color: red; */
+    flex-basis: 40%;
+}
+
+.education ul{
+    /* background-color: royalblue; */
+    list-style: none;
+    flex-basis: 60%;
+}
+
+.education li{
+    margin-bottom: 20px;
+}
